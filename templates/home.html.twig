@@ -1,0 +1,10 @@
+
+{% extends 'base.html.twig' %}
+{%block title%}{{ parent() }} Bienvenue sur l'accueil {%endblock%}
+
+{%block content%}{{ parent() }}
+<br>
+<span>
+    <img src="{{ asset('images/burger.jpg') }}" alt="burger">
+</span>
+{%endblock%}

@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{%block title%}{{ parent() }} Bienvenue sur la liste des burgers {%endblock%}
+{# On hérite du titre de base.html.twig et on ajoute un titre custom pour la page #}
+
+
+{%block content%}{{ parent() }} Voilà la liste {%endblock%}  
+{# On hérite de la nav de base.html.twig et on ajoute un titre et une liste de burgers #}
+
+{%block body%}
+    <h2>Les burgers</h2>
+    <ul>
+        <li>Le burger 1</li>
+        <li>Le burger 2</li>
+    </ul>
+{%endblock%}
